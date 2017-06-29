@@ -13,13 +13,13 @@ export class Hero {
     <div><label>id: </label>{{hero.id}}</div>
     <div>
       <label>name: </label>
-      <input [(ngModel)]="hero.name" placeholder="name">
+      <input [(ngModel)] = "hero.name" placeholder = "name">
     </div>
     `
 })
 export class AppComponent {
   title = 'Tour of Heroes';
-  hero: Hero = {
+  hero : Hero = {
     id: 1,
     name: 'Windstorm'
   };
